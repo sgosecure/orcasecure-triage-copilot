@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+
+# Containers / build
+*.log
+dist/
+build/
+.terraform/
+*.tar
+*.pid
+
+# DB & data artifacts
+data/*.db
+data/*.mmdb
+
+# OS cruft
+.DS_Store
+Thumbs.db
